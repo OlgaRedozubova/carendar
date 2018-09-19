@@ -1,0 +1,29 @@
+{
+  "name": "scalendar",
+  "version": "1.0.0",
+  "description": "calendar",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "react-ui/node_modules"
+  ],
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "passport": "^0.4.0"
+  },
+  "repository": "",
+  "keywords": [
+    "node",
+    "heroku",
+    "create-react-app",
+    "react"
+  ],
+  "devDependencies": {},
+  "main": "index.js",
+  "author": "Olga Redozubova <olgared82@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
