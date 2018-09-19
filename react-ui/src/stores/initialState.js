@@ -27,6 +27,20 @@ const initialState = {
         isFetching: false,
         isAuthenticate: false
     },
+    auth: {
+        isFetching: false,
+        isResetingPassword: false,
+        isUpdating: false,
+        isFetchingUser: false,
+        isFetchingUserError: false,
+        isLoggedIn: false,
+        data: {},
+        fetchInterval: null,
+        isAccountPending: false,
+        emailPrefs: {},
+        vpage: '',
+        pingFailCount: 0,
+    },
     sort: "SORTED_BY_TITLE"
 };
 

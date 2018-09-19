@@ -1,0 +1,47 @@
+
+
+/* -- globals -- */
+@import "./globals";
+
+
+
+//fade
+.fade-enter {
+    opacity: 0.01;
+}
+.fade-enter-active {
+    opacity: 1;
+    @include transition(opacity .2s);
+}
+.fade-exit {
+    opacity: 1;
+}
+.fade-exit-active {
+    opacity: 0.01;
+    @include transition(opacity .2s);
+}
+
+
+
+//toBottom
+.toBottom-exit {
+    @include transform(translateY(0));
+}
+.toBottom-exit-active {
+    @include transform(translateY(100%));
+    @include transition-transform(.3s);
+}
+
+
+
+//fadeOut
+.fadeOut-exit {
+    opacity: 1;
+}
+.fadeOut-exit-active {
+    opacity: 0.01;
+    @include transition(opacity 1s);
+}
+
+
+

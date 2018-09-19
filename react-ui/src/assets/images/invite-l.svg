@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="235px" viewBox="0 0 65 235" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 11</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="73" height="243"></rect>
+    </defs>
+    <g id="Flow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="app-01" transform="translate(0.000000, -432.000000)">
+            <g id="Group-11" transform="translate(0.000000, 424.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g mask="url(#mask-2)">
+                    <g transform="translate(-45.000000, 9.000000)">
+                        <g id="Group-3" transform="translate(5.000000, 124.000000)">
+                            <path d="M73,132 L73,91 C73,90.4477153 72.5522847,90 72,90 L40,90 C39.4477153,90 39,90.4477153 39,91 L39,132 L10,132 L10,2 C10,0.8954305 10.8954305,5.7046325e-14 12,5.68434189e-14 L102,5.68434189e-14 C103.104569,5.66405127e-14 104,0.8954305 104,2 L104,132 L73,132 Z" id="Combined-Shape" stroke="#000000" stroke-linejoin="round"></path>
+                            <rect id="Rectangle-4-Copy-5" stroke="#000000" x="75.5" y="45.5" width="15" height="25" rx="1"></rect>
+                            <rect id="Rectangle-4" stroke="#000000" x="75.5" y="12.5" width="15" height="25" rx="1"></rect>
+                            <rect id="Rectangle-4-Copy" stroke="#000000" x="49.5" y="12.5" width="15" height="25" rx="1"></rect>
+                            <rect id="Rectangle-4-Copy-4" stroke="#000000" x="49.5" y="45.5" width="15" height="25" rx="1"></rect>
+                            <path d="M55.5603948,131.122277 L55.5603948,95.5441395" id="Path-3" stroke="#000000" stroke-linecap="round"></path>
+                            <path d="M79,34.15987 L79,13" id="Path-3-Copy" stroke="#000000" stroke-linecap="round"></path>
+                            <path d="M79,67.15987 L79,46" id="Path-3-Copy-2" stroke="#000000" stroke-linecap="round"></path>
+                            <path d="M53,34.15987 L53,13" id="Path-3-Copy-4" stroke="#000000" stroke-linecap="round"></path>
+                            <path d="M53,67.15987 L53,46" id="Path-3-Copy-3" stroke="#000000" stroke-linecap="round"></path>
+                        </g>
+                        <g id="Group-7" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline id="Rectangle-4-Copy-21" stroke="#000000" points="64 116.185221 64 0 0 0 0 47.992732"></polyline>
+                            <polyline id="Rectangle-4-Copy-25" stroke="#000000" points="50 83.9420798 50 70 57 70 57 88 50 88"></polyline>
+                            <polyline id="Rectangle-4-Copy-28" stroke="#000000" points="50 29.9420798 50 16 57 16 57 34 50 34"></polyline>
+                            <polyline id="Rectangle-4-Copy-27" stroke="#000000" points="50 47.0049183 50 43 57 43 57 61 50 61 50 49.992252"></polyline>
+                            <polyline id="Rectangle-4-Copy-26" stroke="#000000" points="50 105.280088 50 97 57 97 57 110.280088"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

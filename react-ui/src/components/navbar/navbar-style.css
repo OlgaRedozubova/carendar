@@ -1,0 +1,262 @@
+/* -- globals -- */
+@-webkit-keyframes borderDown {
+  from {
+    -webkit-transform: scale(1, 0);
+    -ms-transform: scale(1, 0);
+    transform: scale(1, 0); }
+  to {
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1); } }
+
+/*@-moz-keyframes borderDown {
+        @content;
+    }*/
+@-ms-keyframes borderDown {
+  from {
+    -webkit-transform: scale(1, 0);
+    -ms-transform: scale(1, 0);
+    transform: scale(1, 0); }
+  to {
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1); } }
+
+@keyframes borderDown {
+  from {
+    -webkit-transform: scale(1, 0);
+    -ms-transform: scale(1, 0);
+    transform: scale(1, 0); }
+  to {
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1); } }
+
+.NavBar {
+  padding: 20px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  user-select: none; }
+  .NavBar.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+    opacity: 0;
+    padding: 0; }
+    .NavBar.sticky.active {
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0);
+      opacity: 1; }
+    @media only screen and (max-width: 880px) {
+      .NavBar.sticky {
+        padding: 10px 0; } }
+    .NavBar.sticky .NavBar-link {
+      height: 50px; }
+  .NavBar > nav {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-animation: softFromBottom 0.7s 0.2s backwards;
+    -ms-animation: softFromBottom 0.7s 0.2s backwards;
+    animation: softFromBottom 0.7s 0.2s backwards;
+    padding: 0 25px; }
+    @media only screen and (max-width: 340px) {
+      .NavBar > nav {
+        padding: 0 20px; } }
+  .NavBar .mobile-btn {
+    display: none;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    width: 28px;
+    height: 22px;
+    padding: 5px;
+    cursor: pointer; }
+    .NavBar .mobile-btn i {
+      -webkit-transition: -webkit-transform 0.3s;
+      transition: -ms-transform 0.3s;
+      transition: transform 0.3s;
+      height: 2px;
+      background-color: #433754; }
+    @media only screen and (max-width: 880px) {
+      .NavBar .mobile-btn {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; } }
+  .NavBar .menu {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center; }
+  .NavBar .NavBar-link-wrapper:not(:last-child) {
+    margin-right: 30px; }
+  .NavBar .NavBar-link-wrapper.btn .Button {
+    min-width: 115px;
+    text-align: center; }
+  @media only screen and (max-width: 880px) {
+    .NavBar .NavBar-link-wrapper:not(.btn) {
+      display: none !important; } }
+  .NavBar .NavBar-link {
+    height: 40px;
+    cursor: pointer;
+    font-size: 1.6rem;
+    color: #433754;
+    position: relative;
+    white-space: nowrap;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center; }
+    .NavBar .NavBar-link.lang:after, .NavBar .NavBar-link.settings:after {
+      left: 4px; }
+    .NavBar .NavBar-link.lang .Icon, .NavBar .NavBar-link.settings .Icon {
+      font-size: 2.5rem; }
+    .NavBar .NavBar-link:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 2px;
+      width: 15px;
+      -webkit-transform-origin: right;
+      -ms-transform-origin: right;
+      transform-origin: right;
+      -webkit-transform: scale(0, 1);
+      -ms-transform: scale(0, 1);
+      transform: scale(0, 1);
+      -webkit-transition: -webkit-transform 0.3s;
+      transition: -ms-transform 0.3s;
+      transition: transform 0.3s;
+      background-color: #7813FE; }
+    .NavBar .NavBar-link:hover, .NavBar .NavBar-link.selected, .NavBar .NavBar-link.active {
+      color: #2C2732; }
+      .NavBar .NavBar-link:hover:after, .NavBar .NavBar-link.selected:after, .NavBar .NavBar-link.active:after {
+        -webkit-transform-origin: left;
+        -ms-transform-origin: left;
+        transform-origin: left;
+        -webkit-transform: scale(1, 1);
+        -ms-transform: scale(1, 1);
+        transform: scale(1, 1); }
+    .NavBar .NavBar-link.selected {
+      font-weight: 500; }
+
+.rtl .NavBar .NavBar-link-wrapper:not(:last-child) {
+  margin-right: 0;
+  margin-left: 30px; }
+
+.rtl .NavBar .NavBar-link.lang:after, .rtl .NavBar .NavBar-link.settings:after {
+  left: 0;
+  right: 4px; }
+
+.rtl .NavBar .NavBar-link:after {
+  left: auto;
+  right: 0;
+  -webkit-transform-origin: left;
+  -ms-transform-origin: left;
+  transform-origin: left; }
+
+.rtl .NavBar .NavBar-link:hover:after, .rtl .NavBar .NavBar-link.selected:after, .rtl .NavBar .NavBar-link.active:after {
+  -webkit-transform-origin: right;
+  -ms-transform-origin: right;
+  transform-origin: right; }
+
+.dropDown-link {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center; }
+  .dropDown-link .Icon {
+    font-size: 2rem;
+    margin-left: 3px;
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: -ms-transform 0.2s;
+    transition: transform 0.2s; }
+  .dropDown-link.active .Icon {
+    -webkit-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    transform: scale(1, -1); }
+
+.rtl .dropDown-link .Icon {
+  margin-left: 0;
+  margin-right: 3px; }
+
+.dropDown-menu {
+  padding: 15px 20px 15px 10px;
+  text-align: left; }
+  .dropDown-menu .dropDown-menu-link {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    color: #433754; }
+    .dropDown-menu .dropDown-menu-link:not(:last-child) {
+      margin-bottom: 30px; }
+    .dropDown-menu .dropDown-menu-link .img {
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s; }
+    .dropDown-menu .dropDown-menu-link .txt {
+      margin: 0 25px;
+      width: 380px; }
+      .dropDown-menu .dropDown-menu-link .txt > span {
+        display: block;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s; }
+        .dropDown-menu .dropDown-menu-link .txt > span.title {
+          font-family: "telugu_mn", "Merriweather", serif;
+          line-height: 1.05;
+          font-weight: bold;
+          margin-bottom: 5px;
+          font-size: 2.6rem;
+          -webkit-transition-delay: 0.05s;
+          transition-delay: 0.05s; }
+        .dropDown-menu .dropDown-menu-link .txt > span.body {
+          opacity: .7;
+          font-size: 1.5rem;
+          text-align: justify;
+          -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s; }
+    .dropDown-menu .dropDown-menu-link.selected .title {
+      color: #7813FE; }
+    .dropDown-menu .dropDown-menu-link.selected .body {
+      opacity: 1; }
+    .dropDown-menu .dropDown-menu-link:hover:not(.selected) .img {
+      -webkit-transform: scale(0.95);
+      -ms-transform: scale(0.95);
+      transform: scale(0.95); }
+    .dropDown-menu .dropDown-menu-link:hover:not(.selected) .txt > span {
+      -webkit-transform: translateX(5px);
+      -ms-transform: translateX(5px);
+      transform: translateX(5px); }
+
+.dropDown-menu.rtl {
+  padding: 15px 10px 15px 20px;
+  text-align: right; }
+  .dropDown-menu.rtl .dropDown-menu-link:hover:not(.selected) .txt > span {
+    -webkit-transform: translateX(-5px);
+    -ms-transform: translateX(-5px);
+    transform: translateX(-5px); }
+
+.NavBarBtn-amount {
+  display: inline-block; }

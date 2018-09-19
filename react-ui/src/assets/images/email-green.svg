@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="53px" viewBox="0 0 58 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Dashboard_mob_02" transform="translate(-23.000000, -670.000000)" stroke="#1BD4A5">
+            <g id="Group-4" transform="translate(20.000000, 666.000000)">
+                <g id="Group">
+                    <g id="Group-8-Copy" transform="translate(50.306582, 17.153168) rotate(62.000000) translate(-50.306582, -17.153168) translate(35.806582, 9.653168)">
+                        <path d="M26.7623186,7.51744678 L28.4313115,3.34496452" id="Path-3-Copy-7"></path>
+                        <path d="M19.2518505,5.01395743 L19.2518505,0.00697871267" id="Path-3-Copy-15"></path>
+                        <path d="M11.4640473,9.14718977 L8.96055799,5.80920396" id="Path-3-Copy-16"></path>
+                        <path d="M7.17315749,3.13605539 L6.13517601,1.75112037" id="Path-3-Copy-22"></path>
+                        <path d="M5.89725755,14.5633375 L0.501346822,11.6678885" id="Path-3-Copy-17"></path>
+                    </g>
+                    <g id="Group-8-Copy-2" transform="translate(9.516469, 45.497984) scale(-1, -1) rotate(62.000000) translate(-9.516469, -45.497984) translate(-1.483531, 40.997984)">
+                        <path d="M19.7623186,7.51744678 L21.4313115,3.34496452" id="Path-3-Copy-7"></path>
+                        <path d="M12.2518505,5.01395743 L12.2518505,0.00697871267" id="Path-3-Copy-15"></path>
+                        <path d="M5.8164665,8.73371374 L3.31297714,5.39572793" id="Path-3-Copy-16"></path>
+                        <path d="M1.52557665,2.72257936 L0.487595161,1.33764434" id="Path-3-Copy-22"></path>
+                    </g>
+                    <g id="Group-3" transform="translate(13.000000, 20.000000)" stroke-width="2">
+                        <path d="M14.1769966,23 L33,23 C34.6568542,23 36,21.6568542 36,20 L36,3 C36,1.34314575 34.6568542,-3.04359188e-16 33,0 L4,0 C2.34314575,3.04359188e-16 1,1.34314575 1,3 L1,20 C1,21.6568542 2.34314575,23 4,23 L7.94479219,23" id="Rectangle-4-Copy-22" stroke-linejoin="round" transform="translate(18.500000, 11.500000) scale(-1, 1) translate(-18.500000, -11.500000) "></path>
+                        <path d="M34.6968174,1.0980642 L20.2725285,12.5141366 C19.2240504,13.3439524 17.7529635,13.3797038 16.6654133,12.6017995 L2.30710549,2.33156963" id="Path-3-Copy-16"></path>
+                        <path d="" id="Path-3-Copy-27"></path>
+                        <path d="" id="Path-3-Copy-28" transform="translate(6.203857, 12.875146) scale(-1, 1) translate(-6.203857, -12.875146) "></path>
+                    </g>
+                    <polygon id="Star" stroke-linejoin="round" transform="translate(13.213052, 9.213052) rotate(-10.000000) translate(-13.213052, -9.213052) " points="13.2130517 11.4630517 10.5680181 12.8536282 11.0731745 9.90833993 8.93329736 7.82247521 11.8905349 7.39276345 13.2130517 4.71305169 14.5355685 7.39276345 17.492806 7.82247521 15.3529288 9.90833993 15.8580853 12.8536282"></polygon>
+                    <polyline id="Star-Copy" stroke-linejoin="round" transform="translate(50.375219, 53.250480) rotate(20.000000) translate(-50.375219, -53.250480) " points="50.3752192 55.3180073 48.3344482 56.3909042 48.7242008 54.1184722 47.0731823 52.509127 49.3548337 52.1775836 50.3752192 50.1100567 51.3956048 52.1775836 53.6772562 52.509127 52.0262377 54.1184722 52.4159903 56.3909042"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

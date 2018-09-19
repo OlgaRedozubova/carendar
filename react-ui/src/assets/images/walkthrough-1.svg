@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="130px" height="43px" viewBox="0 0 130 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Dashboard_01" transform="translate(-1099.000000, -377.000000)" stroke="#000000" stroke-width="1.2">
+            <g id="Group-26" transform="translate(810.000000, 377.000000)">
+                <g id="Group-8" transform="translate(290.000000, 0.000000)">
+                    <g id="Group-6" transform="translate(13.350784, 27.189842) rotate(10.000000) translate(-13.350784, -27.189842) translate(2.350784, 12.689842)">
+                        <path d="M6.7767411,29 L15,29 C16.6568542,29 18,27.6568542 18,26 L18,9 C18,7.34314575 16.6568542,6 15,6 L3,6 C1.34314575,6 -6.46995335e-16,7.34314575 -4.4408921e-16,9 L0,26 C2.02906125e-16,27.6568542 1.34314575,29 3,29 L3.57160741,29" id="Rectangle-4-Copy-22" transform="translate(9.000000, 17.500000) scale(-1, 1) translate(-9.000000, -17.500000) "></path>
+                        <path d="M22,5.92585144 L22,3 C22,1.34314575 20.6568542,-7.48448398e-16 19,-4.4408921e-16 L7,0 C5.34314575,3.04359188e-16 4,1.34314575 4,3 L4,20 C4,21.6568542 5.34314575,23 7,23 L7.57160741,23" id="Rectangle-4-Copy-23" transform="translate(13.000000, 11.500000) scale(-1, 1) translate(-13.000000, -11.500000) "></path>
+                        <path d="M11.9393731,16 L4,16" id="Rectangle-4-Copy-24" transform="translate(7.969687, 16.000000) scale(-1, 1) translate(-7.969687, -16.000000) "></path>
+                        <path d="M11.9393731,12 L4,12" id="Rectangle-4-Copy-26" transform="translate(7.969687, 12.000000) scale(-1, 1) translate(-7.969687, -12.000000) "></path>
+                        <path d="M8.9393731,20 L4,20" id="Rectangle-4-Copy-25" transform="translate(6.469687, 20.000000) scale(-1, 1) translate(-6.469687, -20.000000) "></path>
+                    </g>
+                    <g id="Group-7" transform="translate(110.541247, 17.471459) rotate(-10.000000) translate(-110.541247, -17.471459) translate(90.041247, 3.471459)">
+                        <polyline id="Rectangle-4-Copy-24" transform="translate(25.439231, 9.694593) scale(-1, 1) translate(-25.439231, -9.694593) " points="26.0938014 3.16924426 9.93923101 0.694592711 20.9832111 18.6945927 28.8785434 13.2794217 21.8234916 6.69000056 32.8814397 10.3245365 40.939231 5.77528044 29.3366932 3.74725611"></polyline>
+                        <path d="M22.939231,20.6945927 L27.939231,25.6945927" id="Rectangle-4-Copy-25" transform="translate(25.439231, 23.194593) scale(-1, 1) translate(-25.439231, -23.194593) "></path>
+                        <path d="M15.939231,21.6945927 L22.939231,27.6945927" id="Rectangle-4-Copy-29" transform="translate(19.439231, 24.694593) scale(-1, 1) translate(-19.439231, -24.694593) "></path>
+                        <path d="M0.939231012,7.69459271 L7.93923101,11.6945927" id="Rectangle-4-Copy-31" transform="translate(4.439231, 9.694593) scale(-1, 1) translate(-4.439231, -9.694593) "></path>
+                        <polyline id="Rectangle-4-Copy-27" transform="translate(19.939231, 14.194593) scale(-1, 1) translate(-19.939231, -14.194593) " points="17.939231 13.4125999 21.2039586 17.6945927 21.939231 10.6945927"></polyline>
+                        <path d="M18.939231,14.6945927 L23.939231,17.6945927" id="Rectangle-4-Copy-28" transform="translate(21.439231, 16.194593) scale(-1, 1) translate(-21.439231, -16.194593) "></path>
+                    </g>
+                    <path d="M35,25.8558289 C41.4300684,20.6110167 47.7255744,18.8893677 53.8865179,20.6908821 C63.1279333,23.3931537 68.2639317,31.6500963 80.3880799,33.3396929 C88.4708453,34.4660907 94.3414854,31.9714694 98,25.8558289" id="Path-12" stroke-dasharray="2,4"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

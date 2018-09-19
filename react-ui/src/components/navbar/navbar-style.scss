@@ -1,0 +1,258 @@
+@import "../../assets/stylesheets/globals";
+
+.NavBar {
+    padding: 20px 0;
+    @include unselectable;
+
+    &.sticky {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+        @include transition(all .3s);
+        background-color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .08);
+        @include transform(translateY(-100%));
+        opacity: 0;
+        padding: 0;
+        &.active {
+            @include transform(translateY(0));
+            opacity: 1;
+        }
+        @media #{$media-tablet-portrait} {
+            padding: 10px 0;
+        }
+
+        .NavBar-link {
+            height: 50px;
+        }
+
+    }
+
+    > nav {
+        @include display-flex;
+        @include align-items(center);
+        @include justify-content(space-between);
+        @include animation(softFromBottom .7s .2s backwards);
+        padding: 0 25px;
+        @media #{$media-mobile-small} {
+            padding: 0 20px;
+        }
+    }
+
+    //mobile
+    .mobile-btn {
+        display: none;
+        @include flex-direction(column);
+        @include justify-content(space-between);
+        width: 28px;
+        height: 22px;
+        padding: 5px;
+        cursor: pointer;
+        i {
+            @include transition-transform(.3s);
+            height: 2px;
+            background-color: $grey-light;
+        }
+        @media #{$media-tablet-portrait} {
+            @include display-flex;
+        }
+    }
+
+    .menu {
+        @include display-flex;
+        @include align-items(center);
+    }
+
+    .NavBar-link-wrapper {
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+        &.btn .Button {
+            min-width: 115px;
+            text-align: center;
+        }
+
+        //mobile
+        &:not(.btn) {
+            @media #{$media-tablet-portrait} {
+                display: none !important;
+            }
+        }
+    }
+
+    .NavBar-link {
+        height: 40px;
+        cursor: pointer;
+        font-size: 1.6rem;
+        color: $grey-light;
+        position: relative;
+        white-space: nowrap;
+        @include transition(color .3s);
+        @include display-flex;
+        @include align-items(center);
+
+        &.lang, &.settings {
+            &:after {
+                left: 4px
+            }
+            .Icon {
+                font-size: 2.5rem;
+            }
+        }
+
+        &:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 2px;
+            width: 15px;
+            @include transform-origin(right);
+            @include transform(scale(0, 1));
+            @include transition-transform(.3s);
+            background-color: $purple;
+        }
+        &:hover, &.selected, &.active {
+            color: $grey-dark;
+            &:after {
+                @include transform-origin(left);
+                @include transform(scale(1, 1));
+            }
+        }
+        &.selected {
+            font-weight: 500;
+        }
+    }
+
+}
+
+//rtl
+.rtl .NavBar {
+
+    .NavBar-link-wrapper:not(:last-child) {
+        margin-right: 0;
+        margin-left: 30px;
+    }
+
+    .NavBar-link {
+        &.lang , &.settings{
+            &:after {
+                left: 0;
+                right: 4px;
+            }
+        }
+
+        &:after {
+            left: auto;
+            right: 0;
+            @include transform-origin(left);
+        }
+
+        &:hover, &.selected, &.active {
+            &:after {
+                @include transform-origin(right);
+            }
+        }
+    }
+}
+
+.dropDown-link {
+    @include display-flex;
+    @include align-items(center);
+    .Icon {
+        font-size: 2rem;
+        margin-left: 3px;
+        @include transition-transform(.2s)
+    }
+    &.active .Icon {
+        @include transform(scale(1, -1))
+    }
+}
+
+//rtl
+.rtl .dropDown-link {
+    .Icon {
+        margin-left: 0;
+        margin-right: 3px;
+    }
+}
+
+.dropDown-menu {
+    padding: 15px 20px 15px 10px;
+    text-align: left;
+
+    .dropDown-menu-link {
+        @include display-flex;
+        @include align-items(center);
+        color: $grey-light;
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+
+        .img {
+            @include transition(all .3s);
+        }
+        .txt {
+            margin: 0 25px;
+            width: 380px;
+            > span {
+                display: block;
+                @include transition(all .3s);
+                &.title {
+                    @include title;
+                    margin-bottom: 5px;
+                    font-size: 2.6rem;
+                    @include transition-delay(.05s);
+                }
+                &.body {
+                    opacity: .7;
+                    font-size: 1.5rem;
+                    text-align: justify;
+                    @include transition-delay(.1s);
+                }
+            }
+        }
+
+        &.selected {
+            .title {
+                color: $purple;
+            }
+            .body {
+                opacity: 1;
+            }
+        }
+        &:hover:not(.selected) {
+            .img {
+                @include transform(scale(.95));
+            }
+            .txt > span {
+                @include transform(translateX(5px));
+            }
+        }
+    }
+}
+
+//rtl
+.dropDown-menu.rtl {
+    padding: 15px 10px 15px 20px;
+    text-align: right;
+
+    .dropDown-menu-link:hover:not(.selected) {
+        .txt > span {
+            @include transform(translateX(-5px));
+        }
+    }
+
+}
+
+
+.NavBarBtn-amount{
+    display: inline-block
+}
+
+
+
+
+

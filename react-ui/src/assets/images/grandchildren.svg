@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="51px" viewBox="0 0 35 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group-4" transform="translate(1.000000, 1.000000)">
+            <path d="M10.5,21 C16.2989899,21 21,16.2989899 21,10.5 C21,4.70101013 16.2989899,0 10.5,0 C4.70101013,0 0,4.70101013 0,10.5 C0,14.7967781 2.58090693,18.4907532 6.27703912,20.1162434" id="Mask" stroke="#2C2732" transform="translate(10.500000, 10.500000) scale(-1, -1) translate(-10.500000, -10.500000) "></path>
+            <polyline id="Path-13" stroke="#1BD4A5" stroke-width="1.2" fill-rule="nonzero" points="6.20731506 11.21737 9.221977 14.2320319 15.3043253 8.14968363"></polyline>
+            <path d="M9.99979958,21.5582047 L9.99979958,36.2663579 C9.99979958,41.7892054 14.4769521,46.2663579 19.9997996,46.2663579 L30.2454148,46.2663579" id="Path-14" stroke="#2C2732" stroke-dasharray="2,4" fill-rule="nonzero"></path>
+            <polyline id="Path-14-Copy" stroke="#2C2732" fill-rule="nonzero" points="30.0517509 43.3103572 33 46.1551786 30.0517509 49"></polyline>
+        </g>
+    </g>
+</svg>

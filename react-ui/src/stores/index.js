@@ -1,6 +1,7 @@
-import { createStore,
-    combineReducers,
-    applyMiddleware} from 'redux';
+import {
+    createStore, combineReducers, applyMiddleware
+} from 'redux';
+
 import configure from './configure';
 import auth from './auth';
 import users from './users';
@@ -35,13 +36,6 @@ const saver = store => next => action => {
     return result
 };
 
-// export default function storeFactory(initialState) {
-//     return createStore(combineReducers(stores),
-//         (localStorage['redux-store']) ?
-//             JSON.parse(localStorage['redux-store']) :
-//             {}
-//     );
-// }
 const storeFactory = (initialState=stateData) =>
     applyMiddleware(logger, saver)(createStore)(
         combineReducers(stores),

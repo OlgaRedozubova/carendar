@@ -1,0 +1,73 @@
+$font-body: 'Montserrat', sans-serif;
+$font-titles: 'telugu_mn', 'Merriweather', serif;
+$font-merriweather: 'Merriweather', serif;
+
+$easing2 : cubic-bezier( .62,.09,.55,.96);
+$easing: ease;
+
+
+$purple: #7813FE;
+$purple-washed: #F2EFF6;
+$yellow: #FFC848;
+$orange: #F1AE10;
+$blue: #3473DA;
+$turquoise: #1BD4A5;
+$green: #1BD42D;
+$grey-dark: #2C2732;
+$grey-soft: #A19BAA;
+$grey-light: #433754;
+$grey-washed: #DDD8D8;
+$grey-line: #EFEFEF;
+$red: #F1104D;
+
+
+
+$white-strong: rgba(255, 255, 255, 0.7);
+$white-light: rgba(255, 255, 255, 0.5);
+$white-light-mid: rgba(255, 255, 255, 0.3);
+$white-light-washed: rgba(255, 255, 255, 0.1);
+
+
+
+$master-facebook: #3b5998;
+$master-twitter: #1da1f2;
+$master-linkedin: #0077b5;
+$master-trello: #026AA7;
+$master-google: #ea4335;
+$master-vk: #45668e;
+$master-vimeo: #1ab7ea;
+$master-slack: #6ecadc;
+$master-buffer: #323b43;
+$master-pinterest: #bd081c;
+$master-appstore: #3C94EB;
+$master-instagram: #405de6;
+$master-whatsapp: #25D366;
+
+$portrait: " all and (orientation: portrait) ";
+$landscape: " all and (orientation: landscape)";
+
+
+$portrait: " all and (orientation: portrait) ";
+$landscape: " all and (orientation: landscape)";
+
+$media-mobile-small: "only screen and (max-width : 340px)";
+$media-mobile-portrait: "only screen and (max-width : 580px)";
+$media-mobile-landscape: "only screen and (max-width : 680px)";
+$media-between-tablet-and-mobile: "(max-width:880px) and (min-width:580px)";
+$media-tablet-portrait: "only screen and (max-width : 880px)";
+$media-tablet-landscape: "only screen and (max-width : 1080px)";
+$media-laptop-small: "only screen and (max-width : 1300px)";
+$media-laptop: "only screen and (max-width : 1520px)";
+$media-desktop: "only screen and (min-width : 1720px)";
+$media-tv: "only screen and (min-width : 1920px)";
+$media-high: "only screen and (min-height : 820px)";
+
+$media-desktop-short: "(max-height: 780px) and (min-width: 880px)";
+$media-desktop-very-short: "(max-height: 720px) and (min-width: 880px)";
+
+$media-x: "(min-height: 780px) and (max-width: 580px)";
+$media-very-short: "only screen and (max-height : 650px)";
+$media-tiny: "only screen and (max-height : 320px)";
+$media-short: "only screen and (max-height : 820px)";
+
+

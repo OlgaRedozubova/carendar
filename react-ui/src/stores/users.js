@@ -1,6 +1,7 @@
 import C from './constants';
 import user from './user';
 
+//reducers
 export const users = (state = [], action) => {
     switch (action.type) {
         case  C.ADD_USER :
@@ -20,6 +21,19 @@ export const users = (state = [], action) => {
             return state
     }
 };
+
+export const logout = () => ({
+    isFetching: false,
+    isFetchingUser: false,
+    isFetchingUserError: false,
+    isLoggedIn: false,
+    data: {},
+    fetchInterval: null,
+    isAccountPending: false,
+    vpage: '',
+    langChanged: false,
+});
+
 
 export const removeUser = id => ({
     type: C.REMOVE_USER,
