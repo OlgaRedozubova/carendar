@@ -32,7 +32,8 @@ module.exports = (app, passport, dbClient, cacheClient) => {
     //     });
     // }
     app.get('/', function (req, res) {
-        res.send('Hello World!');
+        res.status(200).send('');
+        //res.send('Hello World!');
     });
 
     // app.get('/static/bounty', bounty.get(dbClient, cacheClient));

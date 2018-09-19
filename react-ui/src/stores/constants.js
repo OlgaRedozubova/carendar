@@ -1,0 +1,17 @@
+const constants = {
+    ON_LOGOUT: "ON_LOGOUT",
+    ON_LOGIN: "ON_LOGIN",
+
+    ADD_USER: "ADD_USER",
+    RATE_USER: "RATE_USER",
+    REMOVE_USER: "REMOVE_USER",
+
+    SORT_USERS: "SORT_USERS",
+
+    SORT_COLORS: "SORT_COLORS",
+    ADD_COLOR: "ADD_COLOR",
+    RATE_COLOR: "RATE_COLOR",
+    REMOVE_COLOR: "REMOVE_COLOR"
+};
+
+export default constants
