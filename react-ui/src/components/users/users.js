@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import User from './user';
 import { sortFunction } from '../../lib/array-helpers'
 
-import {rateUser, removeUser} from "../../stores/users";
+import {rateUser, removeUser} from "../../stores/reducers/users";
 
 // class Users extends Component{
 //     render(){
@@ -32,7 +32,7 @@ const Users = ({ users=[], onRate=f=>f, onRemove=f=>f }) =>
     </div>
 
 Users.propTypes = {
-    colors: PropTypes.array,
+    users: PropTypes.array,
     onRate: PropTypes.func,
     onRemove: PropTypes.func
 };

@@ -4,7 +4,7 @@ import { Route as RRR, Switch, withRouter, Redirect } from 'react-router-dom';
 //components
 import Home from "./home/home";
 // import EconomicModel from "../../../../starling-web-olga/react-ui/src/components/economic-model/economic-model";
-// import Login from "../../../../starling-web-olga/react-ui/src/components/login/login";
+import Login from "./login/login";
 // import Error404 from "../../../../starling-web-olga/react-ui/src/components/error/error-404";
 // import Error500 from "../../../../starling-web-olga/react-ui/src/components/error/error-500";
 // import Invite from "../../../../starling-web-olga/react-ui/src/components/invite/invite";
@@ -33,7 +33,7 @@ export default class Routes extends Component {
                 {/*<Route path="/privacy" component={Privacy} />*/}
                 <Route path="/about" component={About} />
 
-                {/*<Route path="/login" component={Login} redirect/>*/}
+                <Route path="/login" component={Login} redirect/>
                 {/*<Route path="/verification" component={Verification} />*/}
                 {/*<Route path="/verify/:token" component={Verification} />*/}
                 {/*<Route path="/reset_pass/:token/:email" component={UpdatePassword} />*/}

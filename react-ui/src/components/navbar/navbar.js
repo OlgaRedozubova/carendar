@@ -14,6 +14,7 @@ export default class NavBar extends Component {
             sticky: sticky,
             //active: sticky && uiStore.scrollPosition > 80
         });
+        const isLoggedIn = false;
         return(
             <div className={newClassName}>
                 <nav className="column">
@@ -27,6 +28,14 @@ export default class NavBar extends Component {
                             <NavLink className="NavBar-link" to="/about" activeClassName="selected">
                                 {i18n.t('menu.about')}
                             </NavLink>
+                        </div>
+                        <div className="NavBar-link-wrapper">
+                            {/*{isLoggedIn && <LogOut className="NavBar-link">{i18n.t('menu.logout')}</LogOut>}*/}
+                            {!isLoggedIn && (
+                                <NavLink className="NavBar-link" to="/login" activeClassName="selected">
+                                    {i18n.t('menu.login')}
+                                </NavLink>
+                            )}
                         </div>
                     </div>
                 </nav>

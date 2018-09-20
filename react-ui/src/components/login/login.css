@@ -1,0 +1,52 @@
+/* -- globals -- */
+@-webkit-keyframes borderDown {
+  from {
+    -webkit-transform: scale(1, 0);
+    -ms-transform: scale(1, 0);
+    transform: scale(1, 0); }
+  to {
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1); } }
+
+/*@-moz-keyframes borderDown {
+        @content;
+    }*/
+@-ms-keyframes borderDown {
+  from {
+    -webkit-transform: scale(1, 0);
+    -ms-transform: scale(1, 0);
+    transform: scale(1, 0); }
+  to {
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1); } }
+
+@keyframes borderDown {
+  from {
+    -webkit-transform: scale(1, 0);
+    -ms-transform: scale(1, 0);
+    transform: scale(1, 0); }
+  to {
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1); } }
+
+.Login {
+  background: url("../../assets/images/login-bg.svg") center 50px no-repeat; }
+  @media only screen and (max-width: 1080px) {
+    .Login {
+      background: none; } }
+  .Login .Form {
+    margin-bottom: 120px; }
+    @media only screen and (max-width: 880px) {
+      .Login .Form {
+        margin-bottom: 90px; } }
+    @media only screen and (max-width: 680px) {
+      .Login .Form {
+        margin-bottom: 80px; }
+        .Login .Form > .article-section {
+          padding-top: 30px; } }
+  .Login .safe {
+    display: block;
+    margin: auto; }

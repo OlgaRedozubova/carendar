@@ -1,0 +1,30 @@
+@import "../../assets/stylesheets/globals";
+
+
+
+.Login{
+    background: url('../../assets/images/login-bg.svg') center 50px no-repeat;
+    @media #{$media-tablet-landscape} {
+        background: none
+    }
+
+    .Form{
+        margin-bottom: 120px;
+        @media #{$media-tablet-portrait} {
+            margin-bottom: 90px;
+        }
+        @media #{$media-mobile-landscape} {
+            margin-bottom: 80px;
+            > .article-section{
+                padding-top: 30px;
+            }
+        }
+    }
+
+    .safe{
+        display: block;
+        margin: auto;
+    }
+}
+
+

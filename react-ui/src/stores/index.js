@@ -2,24 +2,9 @@ import {
     createStore, combineReducers, applyMiddleware
 } from 'redux';
 
-import configure from './configure';
-import auth from './auth';
-import users from './users';
-import sort from './sort';
 import stateData from './initialState';
 
-const stores = {
-    configure,
-    auth,
-    users,
-    sort,
-    // invite,
-    // UiStore,
-    // UserStore,
-    // users,
-    // friends,
-    // contacts,
-};
+import stores from './reducers';
 
 const logger = store => next => action => {
     let result;

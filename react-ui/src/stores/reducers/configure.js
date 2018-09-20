@@ -1,6 +1,6 @@
-import C from './constants';
+import C from '../constants';
 
-const AuthStore = (state = {}, action) => {
+const configure = (state = {}, action) => {
     switch (action.type) {
         case C.ON_LOGOUT:
             return {
@@ -18,4 +18,4 @@ const AuthStore = (state = {}, action) => {
     }
 };
 
-export default AuthStore;
+export default configure;

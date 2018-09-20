@@ -1,4 +1,4 @@
-import C from "./constants";
+import C from "../constants";
 
 const user = (state = {}, action) => {
     switch (action.type) {
